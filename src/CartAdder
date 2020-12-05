@@ -1,0 +1,22 @@
+import React, {Component} from 'react'
+
+//import {FormControl, Input, Button} from '@material-ui/core'
+
+class CartAdder extends Component {
+    render() {
+        return (
+            <FormControl margin="normal">
+                <form onSubmit={this.props.addItem}>
+                    <Input />
+
+                    <Button color="primary" 
+                    variant="contained" type="submit">Add To Cart </Button>
+
+                </form>
+                
+            </FormControl>
+        )
+    }
+}
+
+export default CartAdder

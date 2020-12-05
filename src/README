@@ -1,0 +1,18 @@
+App.js: 
+Deals with the creation of the initial productList (buying options for the pet-shop). Then, that list is passed
+into FilteredList.js as a prop for further manipulation. 
+
+FilteredList.js:
+Deals with most logic in this project. Deals with the two filters (pet type, pet exotic level), one sort 
+(price), and the cart aggregator. The productList is passed again into the DisplayList.js to actually 
+render visible componenets on the react-app. 
+
+DisplayList.js:
+Deals with rendering components such as cards and the cardgrid into the react-app. Sorting is put into action 
+here after the filters, so that the filters and sort can work simultaneously. 
+
+Cart.js: 
+Deals with the displaying of the cart on the right hand of the react-app where the filteredlist with the card 
+options are on the left. 
+
+
