@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import CartAdder from './CartAdder'
 import './App.css';
 
 
