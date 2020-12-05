@@ -26,7 +26,8 @@ export default class FilteredList extends Component {
                 type: '',
                 exotic: '',
                 price: '',
-                quantity: ''
+                quantity: '',
+                hi: ''
             }
         }
     }
