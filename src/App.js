@@ -15,8 +15,6 @@ import bluetangPic from './bluetang.jpg'
 import salmonPic from './salmon.png'
 import tunaPic from './tuna.jpg'
 
-
-
 function App() {
     //productList of the pet-shop
     const productList = [
@@ -38,7 +36,10 @@ function App() {
 
 
   return (
+
+
         <div class="App">
+
           <div class="body-grid">
         
             <FilteredList list={productList} />

@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import DisplayList from './DisplayList'
 import { Navbar, Nav, NavDropdown,} from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './bootstrap.min.css'
 
 import Cart from './Cart'
 
