@@ -3,13 +3,6 @@ import React, {Component} from 'react'
 
 export default class Cart extends Component {
 
-
-
-    constructor(props) {
-        super(props)
-    }
-
-
     createCartCard = item => {
         return(
                 <div key={item.name} class = "eachcard">
@@ -18,7 +11,7 @@ export default class Cart extends Component {
                     </div>
 
                     <div class = "pic">
-                        <img src ={item.img}/>
+                        <img src ={item.img} alt="picimg"/>
                     </div>
 
                     <div>

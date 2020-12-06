@@ -1,14 +1,7 @@
 import React, {Component} from 'react'
 import './App.css';
 
-
-
-
 export default class DisplayList extends Component {
-
-    constructor(props) {
-        super(props)
-    }
 
     //helper function to create each card
     createCard = item => {
@@ -19,7 +12,7 @@ export default class DisplayList extends Component {
                     </div>
 
                     <div class = "pic">
-                        <img src ={item.img}/>
+                        <img src ={item.img} alt="picimg"/>
                     </div>
 
                     <div>
